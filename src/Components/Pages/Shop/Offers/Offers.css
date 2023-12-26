@@ -1,0 +1,193 @@
+.offers {
+    /* width: 90%;  */
+    /* height: 60vh; */
+    display: flex;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #6fcdffc0 0%, #e1ffea22 60%);
+}
+
+.offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers-left h2 {
+    color: #171717;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.offers-left p {
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.offers-left button {
+    width: 285px;
+    height: 65px;
+    border-radius: 35px;
+    background-color: #ff4141;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.offers-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    .offers {
+        padding: 0 15px;
+        margin-bottom: 150px;
+    }
+
+    .offers-left h2 {
+        font-size: 21px;
+    }
+
+    .offers-left p {
+        font-size: 12px;
+    }
+
+    .offers-left button {
+        width: 100px;
+        height: 25px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .offers-right img {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+    .offers {
+        padding: 0 25px;
+        margin-bottom: 150px;
+    }
+
+    .offers-left h2 {
+        font-size: 42px;
+    }
+
+    .offers-left p {
+        font-size: 18px;
+    }
+
+    .offers-left button {
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .offers-right img {
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .offers {
+        padding: 0 50px;
+        margin-bottom: 150px;
+    }
+
+    .offers-left h2 {
+        font-size: 50px;
+    }
+
+    .offers-left p {
+        font-size: 18px;
+    }
+
+    .offers-left button {
+        width: 220px;
+        height: 45px;
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .offers-right img {
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .offers {
+        padding: 0 100px;
+        margin-bottom: 150px;
+    }
+
+    .offers-left h2 {
+        font-size: 65px;
+    }
+
+    .offers-left p {
+        font-size: 20px;
+    }
+
+    .offers-left button {
+        width: 260px;
+        height: 55px;
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .offers-right img {
+        width: 100%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .offers {
+        padding: 0 150px;
+        margin-bottom: 150px;
+    }
+
+    .offers-left h2 {
+        font-size: 65px;
+    }
+
+    .offers-left p {
+        font-size: 20px;
+    }
+
+    .offers-left button {
+        width: 260px;
+        height: 55px;
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .offers-right img {
+        width: 100%;
+    }
+}
